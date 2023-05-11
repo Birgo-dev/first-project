@@ -16,7 +16,8 @@ int main ()
     y = x - y;
     x = x - y;
     printf("x = %d y = %d z = %d\n",x,y,z);
-
+    z = z * x;
+    printf("new z = %d",z);
 
     return 0;
 }
