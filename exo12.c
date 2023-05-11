@@ -12,7 +12,10 @@ int main ()
     scanf("y = %d",y);
     scanf("z = %d",z);
     printf("x = %d y = %d z = %d\n",x,y,z); 
-    
+    x = x + y;
+    y = x - y;
+    x = x - y;
+    printf("x = %d y = %d z = %d\n",x,y,z);
 
 
     return 0;
